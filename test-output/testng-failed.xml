@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Testlearn]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Annotation test cases-Attributes(failed)">
+    <groups>
+      <run>
+        <exclude name="sanity"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Testlearn.Ttimeout">
+        <methods>
+          <include name="timeoutmed"/>
+        </methods>
+      </class> <!-- Testlearn.Ttimeout -->
+      <class name="Testlearn.testenabled">
+        <methods>
+          <include name="search2"/>
+        </methods>
+      </class> <!-- Testlearn.testenabled -->
+    </classes>
+  </test> <!-- Annotation test cases-Attributes(failed) -->
+</suite> <!-- Failed suite [Testlearn] -->
