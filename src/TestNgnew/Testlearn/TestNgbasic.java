@@ -8,7 +8,6 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Test;
 
 public class TestNgbasic{
 
@@ -48,7 +47,8 @@ public class TestNgbasic{
 		System.out.println("close webpage");
 	}
 	
-	@AfterTest ()
+	@AfterTest (alwaysRun=true)// when we use groups filter while running test, then the before/after 
+	//annotation will not work. in order to run the method always we are using this.
 	
 	public void closedb() {
 			System.out.println("closedb");

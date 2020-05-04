@@ -1,23 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Testlearn]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Annotation test cases-Attributes(failed)">
-    <groups>
-      <run>
-        <exclude name="sanity"/>
-      </run>
-    </groups>
+  <test thread-count="5" name="Assertfunction(failed)">
     <classes>
-      <class name="Testlearn.Ttimeout">
+      <class name="Testlearn.Tnassert">
         <methods>
-          <include name="timeoutmed"/>
+          <include name="softassert1"/>
+          <include name="asserthard1"/>
         </methods>
-      </class> <!-- Testlearn.Ttimeout -->
-      <class name="Testlearn.testenabled">
-        <methods>
-          <include name="search2"/>
-        </methods>
-      </class> <!-- Testlearn.testenabled -->
+      </class> <!-- Testlearn.Tnassert -->
     </classes>
-  </test> <!-- Annotation test cases-Attributes(failed) -->
+  </test> <!-- Assertfunction(failed) -->
 </suite> <!-- Failed suite [Testlearn] -->

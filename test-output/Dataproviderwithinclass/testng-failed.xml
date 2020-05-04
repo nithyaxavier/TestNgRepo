@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Dataproviderwithinclass]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="loginer(failed)">
+    <classes>
+      <class name="Testlearn.dpwithcl">
+        <methods>
+          <include name="loginer"/>
+        </methods>
+      </class> <!-- Testlearn.dpwithcl -->
+    </classes>
+  </test> <!-- loginer(failed) -->
+</suite> <!-- Failed suite [Dataproviderwithinclass] -->

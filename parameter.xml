@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Testparameter">
+ 
+ <parameter name = "user" value = "nity"></parameter>
+ <parameter name = "pass" value = "123"></parameter>
+ <parameter name ="browser" value ="chrome"></parameter>
+    <test name="parameter">
+  
+    <classes>  
+            <class name="Testlearn.Tparamter"/>
+            <class name="Testlearn.Tnassert"> 
+            <methods>
+            <exclude name = "assert.*" />
+          
+            </methods>  
+            </class>       
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+

@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Testlearn.Ttimeout">
+      <class name="Testlearn.dpwithcl">
         <methods>
-          <include name="timeoutmed"/>
+          <include name="loginer"/>
         </methods>
-      </class> <!-- Testlearn.Ttimeout -->
+      </class> <!-- Testlearn.dpwithcl -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
