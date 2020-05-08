@@ -7,7 +7,7 @@ public class dummy {
 	@Test
 	public void me() {
 		
-	
+	System.out.println("new line");
 System.out.println("hai");
 
 	}
