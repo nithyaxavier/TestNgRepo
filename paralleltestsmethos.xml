@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Parallel exe using parametrization" parallel = "tests" >
+    
+
+   <test name="XMLPara">
+   
+      
+        <parameter name="browser" value ="IE"></parameter> 
+      <classes>
+       
+        <class name="Testlearn.Tparalel">
+         
+           </class>
+    </classes>
+   
+    
+    
+  </test> <!-- Test -->
+  
+  
+     <test name="XMLPara1">
+   
+    <parameter name="browser" value ="chrome"></parameter>   
+     
+      <classes>
+       
+        <class name="Testlearn.Tparalel">
+         
+           </class>
+    </classes>
+   
+    
+    
+  </test> 
+  </suite> <!-- Suite -->
+

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Dataprovider paralel exe">
+ 
+ 
+    <test name="Dataprovider paralel exe">
+ 
+    <classes>
+            <class name="Testlearn.dpparalel"/>
+                      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
