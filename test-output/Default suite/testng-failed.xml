@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Testlearn.Tparalel">
+      <class name="Testlearn.dpparent">
         <methods>
-          <include name="dbrowser"/>
-          <include name="dbrowser2"/>
+          <include name="test2"/>
+          <include name="test1"/>
         </methods>
-      </class> <!-- Testlearn.Tparalel -->
+      </class> <!-- Testlearn.dpparent -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

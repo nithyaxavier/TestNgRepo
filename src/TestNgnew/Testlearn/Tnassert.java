@@ -20,8 +20,9 @@ public class Tnassert {
 	public void asserthard()
 	{
 		System.out.println("Display text before assert");
-		Assert.assertEquals("Hai", "Hai");//if both strings are equal then test case will pass
+		Assert.assertEquals("Hai", "Hi");//if both strings are equal then test case will pass
 		System.out.println("Display text after hardassert");
+		
 	}
 	
 	@Test

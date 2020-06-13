@@ -1,5 +1,6 @@
 package Testlearn;
-
+//Parameterization using dataprovider method which means for a single test case we are using mulitple test data.
+//Dp is a two dimensional array
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -12,8 +13,6 @@ public class dpwithcl {
 		System.out.println("username:"+user);
 		System.out.println("password:"+pwd);
 }
-	
-
 	@DataProvider(name ="dpname")
 	public String[][] gdata() {
 	

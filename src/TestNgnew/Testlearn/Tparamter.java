@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 public class Tparamter{
 
 @Test
-@Parameters({"user","pass"})//passing test data through xml file
+@Parameters({"user","pass"})//passing test data through xml file"paramater"
 	public void login1(String username ,String password)
 	{
 	

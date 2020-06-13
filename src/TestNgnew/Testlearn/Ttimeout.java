@@ -3,7 +3,7 @@ package Testlearn;
 import org.testng.annotations.Test;
 public class Ttimeout {
 
-	@Test (timeOut = 100)//if TC takes more time to execute then we can fail it thru this method
+	@Test(timeOut =100) //if TC takes more time to execute then we can fail it thru this method
 	public void timeoutmed() throws InterruptedException {
 	
 		Thread.sleep(200);

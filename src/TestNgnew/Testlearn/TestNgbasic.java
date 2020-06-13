@@ -36,7 +36,7 @@ public class TestNgbasic{
 	public void registerpage1() {
 		System.out.println("Register1");
 	}
-		@Test(groups = "sanity")
+	@Test(groups = "sanity")
 	
 	public void registerpage2() {
 		System.out.println("Register2");

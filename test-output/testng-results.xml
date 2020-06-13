@@ -2,60 +2,76 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-05-10T20:49:04 IST" name="Parallel exe using parametrization" finished-at="2020-05-10T20:49:13 IST" duration-ms="8988">
+  <suite started-at="2020-05-24T23:11:02 IST" name="Default suite" finished-at="2020-05-24T23:11:03 IST" duration-ms="165">
     <groups>
     </groups>
-    <test started-at="2020-05-10T20:49:04 IST" name="XMLPara1" finished-at="2020-05-10T20:49:13 IST" duration-ms="8894">
-      <class name="Testlearn.Tparalel">
-        <test-method signature="IEBrowser(java.lang.String)[pri:0, instance:Testlearn.Tparalel@30b7c004]" started-at="2020-05-10T20:49:04 IST" name="IEBrowser" finished-at="2020-05-10T20:49:04 IST" duration-ms="23" status="PASS">
+    <test started-at="2020-05-24T23:11:02 IST" name="Default test" finished-at="2020-05-24T23:11:03 IST" duration-ms="165">
+      <class name="Testlearn.dpparent">
+        <test-method signature="test1(java.lang.String, java.lang.String)[pri:0, instance:Testlearn.dpparent@1d76aeea]" started-at="2020-05-24T23:11:02 IST" name="test1" data-provider="dpclass" finished-at="2020-05-24T23:11:03 IST" duration-ms="16" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[nisha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sweety]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- IEBrowser -->
-        <test-method signature="chromeBrowser(java.lang.String)[pri:0, instance:Testlearn.Tparalel@30b7c004]" started-at="2020-05-10T20:49:04 IST" name="chromeBrowser" finished-at="2020-05-10T20:49:13 IST" duration-ms="8743" status="PASS">
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String, java.lang.String)[pri:0, instance:Testlearn.dpparent@1d76aeea]" started-at="2020-05-24T23:11:03 IST" name="test1" data-provider="dpclass" finished-at="2020-05-24T23:11:03 IST" duration-ms="7" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[smiley]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[key]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- chromeBrowser -->
-      </class> <!-- Testlearn.Tparalel -->
-    </test> <!-- XMLPara1 -->
-    <test started-at="2020-05-10T20:49:04 IST" name="XMLPara" finished-at="2020-05-10T20:49:13 IST" duration-ms="8988">
-      <class name="Testlearn.Tparalel">
-        <test-method signature="IEBrowser(java.lang.String)[pri:0, instance:Testlearn.Tparalel@6a01e23]" started-at="2020-05-10T20:49:04 IST" name="IEBrowser" finished-at="2020-05-10T20:49:13 IST" duration-ms="8880" status="PASS">
+        </test-method> <!-- test1 -->
+        <test-method signature="test2(java.lang.String, java.lang.String)[pri:0, instance:Testlearn.dpparent@1d76aeea]" started-at="2020-05-24T23:11:03 IST" name="test2" data-provider="dpclass" finished-at="2020-05-24T23:11:03 IST" duration-ms="5" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[IE]]>
+                <![CDATA[n]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[g]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- IEBrowser -->
-        <test-method signature="chromeBrowser(java.lang.String)[pri:0, instance:Testlearn.Tparalel@6a01e23]" started-at="2020-05-10T20:49:13 IST" name="chromeBrowser" finished-at="2020-05-10T20:49:13 IST" duration-ms="4" status="PASS">
+        </test-method> <!-- test2 -->
+        <test-method signature="test2(java.lang.String, java.lang.String)[pri:0, instance:Testlearn.dpparent@1d76aeea]" started-at="2020-05-24T23:11:03 IST" name="test2" data-provider="dpclass" finished-at="2020-05-24T23:11:03 IST" duration-ms="4" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[IE]]>
+                <![CDATA[t]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[f]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- chromeBrowser -->
-      </class> <!-- Testlearn.Tparalel -->
-    </test> <!-- XMLPara -->
-  </suite> <!-- Parallel exe using parametrization -->
+        </test-method> <!-- test2 -->
+      </class> <!-- Testlearn.dpparent -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
